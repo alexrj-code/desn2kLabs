@@ -21,7 +21,7 @@ asm_entry
 			
 			movle r4, #1		; a - b is "negative" or zero
 			
-			movne r5, #1		; N flag is not equal to the V flag
+			movlt r5, #1		; N flag is not equal to the V flag
 
 			b   asm_entry
 

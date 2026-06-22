@@ -9,7 +9,7 @@ asm_entry	ldr 	r0, =src	 	; R0 is the address of src
 					
 			;;;;;;;;;;;;;;;;;;;;;
 
-			ldmia	r0, {r3-r10}	; go to address @r0, fetch number, inc address by 4, fetch again
+			ldmia	r0!, {r3-r10}	; go to address @r0, fetch number, inc address by 4, fetch again
 
 			add		r3, r3, r2		; adds the scalar to every array element
 			add		r4, r4, r2
@@ -20,7 +20,7 @@ asm_entry	ldr 	r0, =src	 	; R0 is the address of src
 			add		r9, r9, r2
 			add		r10, r10, r2
 			
-			stmia	r1, {r3-r10}	; go to =r1, store r3, increment address, store r4...
+			stmia	r1!, {r3-r10}	; go to =r1, store r3, increment address, store r4...
 			;;;;;;;;;;;;;;;;;;;;;
 										
 			b 		asm_entry

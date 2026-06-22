@@ -5,7 +5,7 @@ asm_entry
 			mov r0, #1			; Initial value of exp is 1
 			mov r2, #0			; Initial value of k is 0
 for_loop	cmp r2, #31			; Compare k with 31
-			bge exit			; Exit loop if k >= 31
+			bgt exit			; Exit loop if k >= 31
 
 			mov r0, r0, lsl #1	; exp = exp * 2 (shifting left by 1 bit is the
 								; same as multiplying by 2)			

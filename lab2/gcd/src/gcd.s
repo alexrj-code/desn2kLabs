@@ -6,7 +6,7 @@ asm_entry
             ; you try different values when testing.
 
 			mov r0, #12		; a
-			mov r1, #2      ; b
+			mov r1, #12      ; b
 
 asm_entry_cond_0
 			cmp r0, r1

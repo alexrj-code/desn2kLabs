@@ -9,7 +9,7 @@
 ### ADS-LD Output File: '.\output\basic_arithmetic.axf'
 ### ADS-LD Command File: '.\output\basic_arithmetic.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\output\basic_arithmetic.lnp', Handle=0x00000ACC
+### Creating CmdFile '.\output\basic_arithmetic.lnp', Handle=0x00000FB4
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\output\basic_arithmetic.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

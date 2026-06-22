@@ -4,8 +4,15 @@
 asm_entry                      		
 					
 			; Write your code here.
-
-			b   asm_entry
+			mov r0, =char
+			ldrb r1, [r0]
+			
+			sub r1, r1, #32
+			
+			strb r1, [r0]
+		
+			
+			;b   asm_entry
 
 			AREA character, DATA
 char		DCB "f"				; identical to DCB 0x66
