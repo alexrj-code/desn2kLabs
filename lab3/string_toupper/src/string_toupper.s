@@ -12,7 +12,7 @@ asm_entry
 										
 loop		ldrb r0, [r10]				;Load the next character into R0,
 
-			;Call char_toupper here
+			bl char_toupper				;Call your function to convert it to uppercase.
 			
 			strb r0, [r10], #1			;Store the result back into memeory
 										;and post increment R10
