@@ -23,7 +23,6 @@ max_of_6
 			cmp r0, r5						; compare max(a,b,c,d,e) and f
 			movlt r0, r5					; if f > max(a,b,c,d,e): move f into r0
 
-			mov a0, r0						; save largest in a0
 
 			ldmfd sp!, {v1-v2, lr}			; pop v1-v2 + lr
 			;;;;;;;;;;;;;;;;;;;;;;;;

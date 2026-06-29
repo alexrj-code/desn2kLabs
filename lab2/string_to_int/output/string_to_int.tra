@@ -1,0 +1,18 @@
+*** Creating Trace Output File '.\output\string_to_int.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\lpc2400.o"'
+### List of Objects: adding '".\output\startup.o"'
+### List of Objects: adding '".\output\string_to_int.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\lpc2400.o" ".\output\startup.o" ".\output\string_to_int.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --first=LPC2400.o(RESET) --bestdebug --arm_only --summary_stderr --info summarysizes -o ".\output\string_to_int.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\string_to_int.axf'
+### ADS-LD Command File: '.\output\string_to_int.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\string_to_int.lnp', Handle=0x00000F1C
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\string_to_int.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

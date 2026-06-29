@@ -20,6 +20,7 @@ loop
 			add r0, r0, r3			; r0 = result = result*10 + (s[i] - '0')
 
 			add r1, r1, #1			; increment pointer by a single byte (next char)
+			b loop
 
 end			
 			b   asm_entry			; but this never ends, so we can see the result in r0 in the debugger

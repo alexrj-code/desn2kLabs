@@ -1,0 +1,18 @@
+*** Creating Trace Output File '.\output\max_of_6.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\lpc2400.o"'
+### List of Objects: adding '".\output\max_of_6.o"'
+### List of Objects: adding '".\output\main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\lpc2400.o" ".\output\max_of_6.o" ".\output\main.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --first=LPC2400.o(RESET) --bestdebug --arm_only --summary_stderr --info summarysizes -o ".\output\max_of_6.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\max_of_6.axf'
+### ADS-LD Command File: '.\output\max_of_6.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\max_of_6.lnp', Handle=0x00000F68
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\max_of_6.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

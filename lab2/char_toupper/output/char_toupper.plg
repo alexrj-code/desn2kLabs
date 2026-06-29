@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\desn2kLabs\lab2\char_toupper\char_toupper.uvproj
+Project File Date:  05/31/2021
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling startup.c...
+assembling char_toupper.s...
+src\char_toupper.s(1): error: A1163E: Unknown opcode char_touper, , expecting opcode or Macro
+src\char_toupper.s(4): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(1): error: A1163E: Unknown opcode char_touper, , expecting opcode or Macro
+src\char_toupper.s(4): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(1): error: A1163E: Unknown opcode char_touper, , expecting opcode or Macro
+src\char_toupper.s(4): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(12): warning: A1865W: '#' not seen before constant expression
+src\char_toupper.s(14): warning: A1865W: '#' not seen before constant expression
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'a', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'a', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(9): error: A1516E: Bad symbol 'char', not defined or external
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+linking...
+Program Size: Code=1116 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling startup.c...
+assembling char_toupper.s...
+linking...
+Program Size: Code=1116 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+src\char_toupper.s(26): error: A1186E: Code generated in data area
+Target not created
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+linking...
+Program Size: Code=1120 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling startup.c...
+assembling char_toupper.s...
+linking...
+Program Size: Code=1120 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QVGA Base Board'
+linking...
+Program Size: Code=1120 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling startup.c...
+assembling char_toupper.s...
+linking...
+Program Size: Code=1120 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\desn2kLabs\\lab2\\char_toupper\\output\\char_toupper.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'QVGA Base Board'
+assembling char_toupper.s...
+linking...
+Program Size: Code=1120 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\char_toupper.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\desn2kLabs\\lab2\\char_toupper\\output\\char_toupper.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
