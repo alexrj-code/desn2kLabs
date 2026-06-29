@@ -9,12 +9,18 @@ asm_entry	ldr 	r0, =src	 	; R0 is the address of src
 					
 			;;;;;;;;;;;;;;;;;;;;;
 
-			; Your code here   
-			; Each entry of dst needs to equal 
-			; the corresponding entry of src, plus
-			; scalar.
-			; Use r3-r10 to temporarily store the array
+			ldmia	r0!, {r3-r10}	; go to address @r0, fetch number, inc address by 4, fetch again
+
+			add		r3, r3, r2		; adds the scalar to every array element
+			add		r4, r4, r2
+			add		r5, r5, r2
+			add		r6, r6, r2
+			add		r7, r7, r2
+			add		r8, r8, r2
+			add		r9, r9, r2
+			add		r10, r10, r2
 			
+			stmia	r1!, {r3-r10}	; go to =r1, store r3, increment address, store r4...
 			;;;;;;;;;;;;;;;;;;;;;
 										
 			b 		asm_entry

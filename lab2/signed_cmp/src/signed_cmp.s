@@ -15,13 +15,13 @@ asm_entry
 			; the mov instructions below 
 			; so they execute only if...
 			
-			mov{cond} r2, #1		; a > b (unsigned)
+			movhi r2, #1		; a > b (unsigned)
 			
-			mov{cond} r3, #1		; a > b (signed)
+			movgt r3, #1		; a > b (signed)
 			
-			mov{cond} r4, #1		; a - b is "negative" or zero
+			movle r4, #1		; a - b is "negative" or zero
 			
-			mov{cond} r5, #1		; N flag is not equal to the V flag
+			movlt r5, #1		; N flag is not equal to the V flag
 
 			b   asm_entry
 
