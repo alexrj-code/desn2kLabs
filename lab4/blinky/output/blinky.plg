@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\Client\C$\Users\alexj\Documents\Code\desn2k\desn2kLabs\lab4\blinky\blinky.uvproj
+Project File Date:  06/29/2026
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling startup.c...
+assembling blinky.s...
+src\blinky.s(8): error: A1163E: Unknown opcode FIO3DIR , expecting opcode or Macro
+src\blinky.s(9): error: A1163E: Unknown opcode FIO3PIN , expecting opcode or Macro
+src\blinky.s(10): error: A1163E: Unknown opcode FIO3SET , expecting opcode or Macro
+src\blinky.s(11): error: A1163E: Unknown opcode FIO3CLR , expecting opcode or Macro
+src\blinky.s(13): error: A1163E: Unknown opcode TOP_RED , expecting opcode or Macro
+src\blinky.s(14): error: A1163E: Unknown opcode BOTTOM_RED , expecting opcode or Macro
+src\blinky.s(20): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+src\blinky.s(20): error: A1586E: Bad operand types (UnDefOT, UnDefOT) for operator (
+assembling delay.s...
+Target not created
+Build target 'QVGA Base Board'
+assembling blinky.s...
+src\blinky.s(20): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+src\blinky.s(20): error: A1586E: Bad operand types (UnDefOT, Constant) for operator (
+Target not created
+Build target 'QVGA Base Board'
+assembling blinky.s...
+src\blinky.s(20): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+linking...
+Program Size: Code=1176 RO-data=16 RW-data=0 ZI-data=1384  
+".\output\blinky.axf" - 0 Error(s), 1 Warning(s).

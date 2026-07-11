@@ -1,0 +1,19 @@
+*** Creating Trace Output File '.\output\blinky.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\lpc2400.o"'
+### List of Objects: adding '".\output\startup.o"'
+### List of Objects: adding '".\output\blinky.o"'
+### List of Objects: adding '".\output\delay.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\lpc2400.o" ".\output\startup.o" ".\output\blinky.o" ".\output\delay.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --first=LPC2400.o(RESET) --bestdebug --arm_only --summary_stderr --info summarysizes -o ".\output\blinky.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\blinky.axf'
+### ADS-LD Command File: '.\output\blinky.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\blinky.lnp', Handle=0x00000E94
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\blinky.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

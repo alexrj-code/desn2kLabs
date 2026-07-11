@@ -5,19 +5,19 @@
 			; ------------------
 			; Define any required constants here
 			; ------------------
-			FIO3DIR	EQU 0x3FFFC060  ; Port 3 DIR
-			FIO3PIN EQU 0x3FFFC074  ; Port 3 PINS
-			FIO3SET EQU 0x3FFFC078  ; Port 3 SET
-			FIO3CLR EQU 0x3FFFC07C  ; Port 3 CLEAR
+FIO3DIR	EQU 0x3FFFC060  ; Port 3 DIR
+FIO3PIN EQU 0x3FFFC074  ; Port 3 PINS
+FIO3SET EQU 0x3FFFC078  ; Port 3 SET
+FIO3CLR EQU 0x3FFFC07C  ; Port 3 CLEAR
 
-			TOP_RED	EQU (1 << 16)   ; silkscreen says P3.16
-			BOTTOM_RED EQU (1 << 19); silkscreen says P3.19
+TOP_RED	EQU (1 << 16)   ; silkscreen says P3.16
+BOTTOM_RED EQU (1 << 19); silkscreen says P3.19
 
 asm_entry    
 	; Setup GPIO, tell system we want LEDs as OUTPUTS
 		LDR	R0, =FIO3DIR			; loads addy of port 3 direction
 		LDR	R1, [R0]				; reads the value @ addy
-		LDR R2, =(TOP_RED | BOTTOM_RED	; composite bit mask for top and bottom
+		LDR R2, =(TOP_RED | BOTTOM_RED)	; composite bit mask for top and bottom
 		ORR	R1, R1, R2				; bitwise or to get the value @ the bits corspnd to LED
 		STR	R1, [R0]				; saves congif back to addy
 
