@@ -35,12 +35,10 @@ blinky_loop
 		LDR     R4, =BOTTOM_RED 	; gets the BOTTOM_RED pattern (bit 19 = 1)
 		STR     R4, [R3]        	; stores BOTTOM_RED pattern at location specified by addy
 
-		; Wait for 200ms
+		; Wait
 		BL      delay           
 	
-	; -------------------------------------------------------------
 	; Turn LEDs OFF
-	; -------------------------------------------------------------
 		; Method 1: Read-Modify-Write (Top LED - Pin 16)
 		LDR     R0, =FIO3PIN    	; loads addy of port 3 PIN
 		LDR     R1, [R0]        	; stores value at port 3 pin addy
@@ -53,7 +51,7 @@ blinky_loop
 		LDR     R4, =BOTTOM_RED 	; gets the bottom red led pattern
 		STR     R4, [R5]        	; goes to clear pattern addy, saves red led pattern
 
-		; Wait for 200ms   
+		; Wait  
 		BL      delay           
 		
 		B       blinky_loop     
