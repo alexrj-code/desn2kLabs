@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\Client\C$\Users\alexj\Documents\Code\desn2k\desn2kLabs\lab4\toggle\toggle.uvproj
+Project File Date:  06/29/2026
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling main.c...
+src\main.c(20): error:  #268: declaration may not appear after executable statement in block
+src\main.c(21): error:  #268: declaration may not appear after executable statement in block
+src\main.c(53): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(53): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=1196 RO-data=16 RW-data=0 ZI-data=1384  
+".\output\toggle.axf" - 0 Error(s), 1 Warning(s).
