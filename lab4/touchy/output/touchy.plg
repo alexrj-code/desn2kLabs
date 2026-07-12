@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\Client\C$\Users\alexj\Documents\Code\desn2k\desn2kLabs\lab4\touchy\touchy.uvproj
+Project File Date:  06/29/2026
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+assembling touchy.s...
+linking...
+Program Size: Code=1096 RO-data=16 RW-data=0 ZI-data=1384  
+".\output\touchy.axf" - 0 Error(s), 0 Warning(s).
