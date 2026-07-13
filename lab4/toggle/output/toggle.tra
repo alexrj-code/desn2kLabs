@@ -8,7 +8,7 @@
 ### ADS-LD Output File: '.\output\toggle.axf'
 ### ADS-LD Command File: '.\output\toggle.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\output\toggle.lnp', Handle=0x0000037C
+### Creating CmdFile '.\output\toggle.lnp', Handle=0x00000F28
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\output\toggle.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

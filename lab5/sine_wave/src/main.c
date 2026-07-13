@@ -18,6 +18,7 @@ int main(void) {
 		//Write next value of sinewave_data[] to the DAC
 		DACR = (sinewave_data[i] << 6);		// put the data into DACR, shift so we don't touch forbidden section
 		i = i + 1;
+		// i = i + 16; // LOWER SAMPLING RATE FOR 2nd PART
 		
 		// won't this be way too high freq to hear???
 

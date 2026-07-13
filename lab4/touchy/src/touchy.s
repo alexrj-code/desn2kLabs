@@ -32,7 +32,8 @@ touchy_loop
 		ANDS R3, R1, R2			; Find out if button bit is high or low
 								; result will be 1 if button is pressed
 
-		BNE left_switch_pushed	; Branch if NOT EQUAL TO 0 
+		BEQ R3, #0, left_switch_pushed
+		; BNE left_switch_pushed	; Branch if NOT EQUAL TO 0 
 		b	touchy_loop	
 
 left_switch_pushed					; does nothing yet

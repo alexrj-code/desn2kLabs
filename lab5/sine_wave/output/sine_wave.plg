@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\desn2kLabs\lab5\sine_wave\sine_wave.uvproj
+Project File Date:  06/29/2026
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+assembling LPC2400.s...
+compiling main.c...
+src\main.c(30): warning:  #111-D: statement is unreachable
+src\main.c(31): warning:  #1-D: last line of file ends without a newline
+compiling sine_wave_data.c...
+linking...
+Program Size: Code=1224 RO-data=32 RW-data=1024 ZI-data=1384  
+".\output\sine_wave.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\desn2kLabs\\lab5\\sine_wave\\output\\sine_wave.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(30): warning:  #111-D: statement is unreachable
+src\main.c(31): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1224 RO-data=32 RW-data=1024 ZI-data=1384  
+".\output\sine_wave.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\desn2kLabs\\lab5\\sine_wave\\output\\sine_wave.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(30): warning:  #111-D: statement is unreachable
+src\main.c(31): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1224 RO-data=32 RW-data=1024 ZI-data=1384  
+".\output\sine_wave.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\desn2kLabs\\lab5\\sine_wave\\output\\sine_wave.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

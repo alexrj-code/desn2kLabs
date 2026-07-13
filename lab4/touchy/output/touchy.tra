@@ -9,7 +9,7 @@
 ### ADS-LD Output File: '.\output\touchy.axf'
 ### ADS-LD Command File: '.\output\touchy.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\output\touchy.lnp', Handle=0x00000A60
+### Creating CmdFile '.\output\touchy.lnp', Handle=0x00000F58
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\output\touchy.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

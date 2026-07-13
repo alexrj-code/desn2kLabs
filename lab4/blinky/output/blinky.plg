@@ -3,7 +3,16 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-\\Client\C$\Users\alexj\Documents\Code\desn2k\desn2kLabs\lab4\blinky\blinky.uvproj
+D:\desn2kLabs\lab4\blinky\blinky.uvproj
 Project File Date:  07/11/2026
 
 <h2>Output:</h2>
+Build target 'QVGA Base Board'
+linking...
+Program Size: Code=1176 RO-data=16 RW-data=0 ZI-data=1384  
+".\output\blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\desn2kLabs\\lab4\\blinky\\output\\blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
