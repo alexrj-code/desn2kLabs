@@ -18,9 +18,14 @@ int main(void) {
 	
 	//Draw a background with lcd_fillScreen
 	//Otherwise you will write random noise to the screen!
+	lcd_fillScreen(WHITE);
 	
 	//Draw some shapes now!
 	//....
+	lcd_drawRect(40, 10, 50, 50, BLACK);
+	lcd_fillcircle(100, 200, 50, YELLOW);
+	lcd_line(200, 300, 50, 10, BLACK);
+
 
 	//Do nothing more
 	while (1) { }

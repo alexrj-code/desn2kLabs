@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\Client\C$\Users\alexj\Documents\Code\desn2k\desn2kLabs\lab6\bubblepop\bubblepop.uvproj
+Project File Date:  07/27/2026
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+compiling touch.c...
+src\touch.c(14): error:  #18: expected a ")"
+src\touch.c(15): error:  #18: expected a ")"
+src\touch.c(18): error:  #18: expected a ")"
+src\touch.c(19): error:  #18: expected a ")"
+src\touch.c(22): error:  #18: expected a ")"
+src\touch.c(23): error:  #18: expected a ")"
+Target not created
+Build target 'QVGA Base Board'
+compiling touch.c...
+linking...
+Program Size: Code=10680 RO-data=808 RW-data=36 ZI-data=844  
+".\output\bubblepop.axf" - 0 Error(s), 0 Warning(s).
